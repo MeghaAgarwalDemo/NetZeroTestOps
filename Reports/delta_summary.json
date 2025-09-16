@@ -1,0 +1,10 @@
+{
+  "baseline_total_co2e_g": 0.00047092631560266085,
+  "optimized_total_co2e_g": 0.00015836447224350483,
+  "co2e_g_saved": 0.000312561843359156,
+  "percent_reduction_co2e": 66.37170890719065,
+  "baseline_total_joules": 4.238336840423948,
+  "optimized_total_joules": 1.4252802501915436,
+  "joules_saved": 2.813056590232404,
+  "percent_reduction_joules": 66.37170890719064
+}

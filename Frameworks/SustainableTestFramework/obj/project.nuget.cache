@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "5AmPBVCi8v4=",
+  "success": false,
+  "projectFilePath": "C:\\Hackathon\\NetZero TestOps\\NetZero TestOps\\Frameworks\\SustainableTestFramework\\GreenerTestFramework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\meghaagarwal\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\meghaagarwal\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\meghaagarwal\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Repos\\Package\\testPackages' doesn't exist.",
+      "libraryId": "xunit"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Repos\\Package\\testPackages' doesn't exist.",
+      "libraryId": "xunit.runner.visualstudio"
+    }
+  ]
+}

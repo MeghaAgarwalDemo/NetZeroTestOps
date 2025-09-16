@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks", "Frameworks", "{B91A47D2-C263-5038-41EB-7F1393D47ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarbonAwareTestMetrics", "Frameworks\CarbonTrackingSystem\CarbonAwareTestMetrics.csproj", "{A1F38BF7-2030-4371-0369-2A383A9C5396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenerTestFramework", "Frameworks\SustainableTestFramework\GreenerTestFramework.csproj", "{105408C6-6097-9831-D3F8-09E637A5886F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonGreenTestFramework", "Frameworks\WastefulTestFramework\NonGreenTestFramework.csproj", "{26A4D517-8093-C361-682A-9079CF29C6C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1F38BF7-2030-4371-0369-2A383A9C5396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F38BF7-2030-4371-0369-2A383A9C5396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F38BF7-2030-4371-0369-2A383A9C5396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F38BF7-2030-4371-0369-2A383A9C5396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105408C6-6097-9831-D3F8-09E637A5886F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105408C6-6097-9831-D3F8-09E637A5886F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105408C6-6097-9831-D3F8-09E637A5886F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105408C6-6097-9831-D3F8-09E637A5886F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A4D517-8093-C361-682A-9079CF29C6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A4D517-8093-C361-682A-9079CF29C6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A4D517-8093-C361-682A-9079CF29C6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A4D517-8093-C361-682A-9079CF29C6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1F38BF7-2030-4371-0369-2A383A9C5396} = {B91A47D2-C263-5038-41EB-7F1393D47ED0}
+		{105408C6-6097-9831-D3F8-09E637A5886F} = {B91A47D2-C263-5038-41EB-7F1393D47ED0}
+		{26A4D517-8093-C361-682A-9079CF29C6C6} = {B91A47D2-C263-5038-41EB-7F1393D47ED0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55F20544-BEB2-4FB9-B687-ED57593FDE44}
+	EndGlobalSection
+EndGlobal

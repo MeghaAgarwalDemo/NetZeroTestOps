@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Description>Library to collect test execution resource metrics and estimate energy, carbon footprint, and savings vs baseline.</Description>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+</Project>

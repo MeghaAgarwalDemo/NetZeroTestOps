@@ -1,0 +1,44 @@
+[
+  {
+    "test_id": "Test_Inventory",
+    "suite": "Catalog",
+    "outcome": "passed",
+    "duration_s": 0.6650364,
+    "cpu_s": 0.03125,
+    "peak_ws_mb": 25.1875,
+    "avg_ws_mb": 25.1875,
+    "cpu_joules": 0.9375,
+    "mem_joules": 0.006085180477441406,
+    "total_joules": 0.9435851804774414,
+    "kwh": 2.621069945770671E-07,
+    "co2e_g": 0.00010484279783082683
+  },
+  {
+    "test_id": "Test_Checkout",
+    "suite": "Order",
+    "outcome": "passed",
+    "duration_s": 0.9127057,
+    "cpu_s": 0.03125,
+    "peak_ws_mb": 25.1875,
+    "avg_ws_mb": 25.166015625,
+    "cpu_joules": 0.9375,
+    "mem_joules": 0.00834426730223465,
+    "total_joules": 0.9458442673022347,
+    "kwh": 2.627345186950652E-07,
+    "co2e_g": 0.00010509380747802607
+  },
+  {
+    "test_id": "Test_Login",
+    "suite": "Auth",
+    "outcome": "passed",
+    "duration_s": 0.568534,
+    "cpu_s": 0.078125,
+    "peak_ws_mb": 25.08984375,
+    "avg_ws_mb": 24.970703125,
+    "cpu_joules": 2.34375,
+    "mem_joules": 0.00515739264427185,
+    "total_joules": 2.348907392644272,
+    "kwh": 6.524742757345199E-07,
+    "co2e_g": 0.000260989710293808
+  }
+]

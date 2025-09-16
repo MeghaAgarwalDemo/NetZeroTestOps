@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'>
+<title>Carbon Aware Test Metrics Report</title>
+<style>body{font-family:Arial,Helvetica,sans-serif;margin:24px;color:#222;}h1{color:#0a5d52;}table{border-collapse:collapse;margin:16px 0;width:100%;}th,td{border:1px solid #ddd;padding:6px;font-size:14px;}th{background:#0a5d52;color:#fff;}tr:nth-child(even){background:#f6f6f6;}code{background:#eee;padding:2px 4px;border-radius:4px;} .kpi{display:flex;gap:16px;flex-wrap:wrap;margin:12px 0;} .kpi div{flex:1 1 160px;background:#0a5d5214;padding:10px;border-radius:6px;} footer{margin-top:40px;font-size:12px;color:#666;} .improved{color:#0a5d52;font-weight:600;} .worse{color:#b30000;font-weight:600;} </style>
+<script src='https://cdn.jsdelivr.net/npm/chart.js'></script></head><body>
+<h1>Carbon Aware Test Metrics Report</h1>
+<p>Automatically generated comparison of baseline vs optimized test execution runs, including energy and carbon footprint deltas.</p>
+<h2>Summary KPIs</h2><div class='kpi'>
+<div><strong>Baseline CO₂e (g)</strong><br><span class=''>0.000470926</span></div>
+<div><strong>Optimized CO₂e (g)</strong><br><span class=''>0.000158364</span></div>
+<div><strong>CO₂e Reduction %</strong><br><span class='improved'>66.37%</span></div>
+<div><strong>Baseline Energy (J)</strong><br><span class=''>4.2383</span></div>
+<div><strong>Optimized Energy (J)</strong><br><span class=''>1.4253</span></div>
+<div><strong>Energy Reduction %</strong><br><span class='improved'>66.37%</span></div>
+<div><strong>Tests (Baseline)</strong><br><span class=''>3</span></div>
+<div><strong>Tests (Optimized)</strong><br><span class=''>3</span></div>
+</div>
+<h2>Delta Detail</h2><table><thead><tr><th>Metric</th><th>Baseline</th><th>Optimized</th><th>Saved</th><th>% Reduction</th></tr></thead><tbody>
+<tr><td>CO₂e (g)</td><td>0.000470926</td><td>0.000158364</td><td>0.000312562</td><td>66.37%</td></tr>
+<tr><td>Energy (J)</td><td>4.2383</td><td>1.4253</td><td>2.8131</td><td>66.37%</td></tr>
+</tbody></table>
+<h2>Per-Test Comparison</h2>
+<table><thead><tr><th>Test</th><th>Baseline Joules</th><th>Optimized Joules</th><th>Δ Joules</th><th>Δ %</th><th>Baseline CO₂e (g)</th><th>Optimized CO₂e (g)</th></tr></thead><tbody>
+<tr><td>Test_Checkout</td><td>0.9458</td><td>0.4769</td><td class='improved'>0.4689</td><td class='improved'>49.58%</td><td>0.000105094</td><td>5.29888E-05</td></tr>
+<tr><td>Test_Inventory</td><td>0.9436</td><td>0.0059</td><td class='improved'>0.9377</td><td class='improved'>99.38%</td><td>0.000104843</td><td>6.51939E-07</td></tr>
+<tr><td>Test_Login</td><td>2.3489</td><td>0.9425</td><td class='improved'>1.4064</td><td class='improved'>59.87%</td><td>0.00026099</td><td>0.000104724</td></tr>
+</tbody></table>
+<h2>Charts</h2><canvas id='energyChart' height='120'></canvas><canvas id='co2Chart' height='120' style='margin-top:30px;'></canvas>
+<script>
+const labels = ["Test_Checkout","Test_Inventory","Test_Login"];
+const baseEnergy = ["0.9458442673022347","0.9435851804774414","2.348907392644272"].map(parseFloat);
+const optEnergy = ["0.4768994510362656","0.005867455281124878","0.9425133438741531"].map(parseFloat);
+const baseCo2 = ["0.00010509380747802607","0.00010484279783082683","0.000260989710293808"].map(parseFloat);
+const optCo2 = ["5.298882789291839E-05","6.519394756805421E-07","0.0001047237048749059"].map(parseFloat);
+new Chart(document.getElementById('energyChart').getContext('2d'), {type:'bar',data:{labels:labels,datasets:[{label:'Baseline Joules',backgroundColor:'#ff7043',data:baseEnergy},{label:'Optimized Joules',backgroundColor:'#26a69a',data:optEnergy}]},options:{responsive:true,plugins:{legend:{position:'top'},title:{display:true,text:'Per-Test Energy (J)'}}}});
+new Chart(document.getElementById('co2Chart').getContext('2d'), {type:'bar',data:{labels:labels,datasets:[{label:'Baseline CO₂e (g)',backgroundColor:'#ffa000',data:baseCo2},{label:'Optimized CO₂e (g)',backgroundColor:'#2e7d32',data:optCo2}]},options:{responsive:true,plugins:{legend:{position:'top'},title:{display:true,text:'Per-Test CO₂e (g)'}}}});
+</script>
+<h2>Assumptions</h2><ul>
+<li>Grid intensity (g CO₂/kWh): 400</li>
+<li>Average CPU power (W): 30</li>
+<li>Memory power per GB (W): 0.372</li>
+</ul>
+<footer>Generated 2025-09-09 08:01:00Z | CarbonAwareTestMetrics</footer>
+</body></html>

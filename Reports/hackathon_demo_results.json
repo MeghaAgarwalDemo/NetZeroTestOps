@@ -1,0 +1,69 @@
+{
+  "hackathon_demo_timestamp": "2025-09-16T14:28:50.249067",
+  "baseline_framework": {
+    "name": "NonGreenTestFramework",
+    "total_energy_joules": 214.013436,
+    "total_carbon_g_co2e": 0.023779270666666668,
+    "execution_logs": [
+      {
+        "test": "Test_Login",
+        "duration_seconds": 2.6500000000000004,
+        "energy_joules": 80.58438000000001,
+        "carbon_g_co2e": 0.008953820000000001,
+        "timestamp": "2025-09-16T14:28:47.781309"
+      },
+      {
+        "test": "Test_Inventory",
+        "duration_seconds": 1.24,
+        "energy_joules": 37.522896,
+        "carbon_g_co2e": 0.004169210666666667,
+        "timestamp": "2025-09-16T14:28:48.239695"
+      },
+      {
+        "test": "Test_Checkout",
+        "duration_seconds": 3.1500000000000004,
+        "energy_joules": 95.90616000000001,
+        "carbon_g_co2e": 0.01065624,
+        "timestamp": "2025-09-16T14:28:49.060911"
+      }
+    ]
+  },
+  "optimized_framework": {
+    "name": "GreenerTestFramework",
+    "total_energy_joules": 76.9464,
+    "total_carbon_g_co2e": 0.008549600000000001,
+    "execution_logs": [
+      {
+        "test": "Test_Login",
+        "duration_seconds": 0.75,
+        "energy_joules": 22.6395,
+        "carbon_g_co2e": 0.0025155,
+        "timestamp": "2025-09-16T14:28:49.501490"
+      },
+      {
+        "test": "Test_Inventory",
+        "duration_seconds": 0.85,
+        "energy_joules": 25.59486,
+        "carbon_g_co2e": 0.0028438733333333334,
+        "timestamp": "2025-09-16T14:28:49.613513"
+      },
+      {
+        "test": "Test_Checkout",
+        "duration_seconds": 0.95,
+        "energy_joules": 28.71204,
+        "carbon_g_co2e": 0.0031902266666666667,
+        "timestamp": "2025-09-16T14:28:49.749436"
+      }
+    ]
+  },
+  "improvements": {
+    "energy_reduction_percentage": 64.04599569159761,
+    "carbon_reduction_percentage": 64.0459956915976,
+    "performance_improvement_percentage": 63.77840909090909
+  },
+  "methodology": {
+    "carbon_calculator": "Industry standard with grid intensity 400g CO\u2082/kWh",
+    "measurement_approach": "Real-time resource consumption tracking",
+    "validation": "Side-by-side framework comparison"
+  }
+}

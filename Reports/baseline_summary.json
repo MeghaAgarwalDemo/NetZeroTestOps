@@ -1,0 +1,18 @@
+{
+  "run_label": "baseline",
+  "tests": 3,
+  "duration_s_total": 2.1462761,
+  "cpu_s_total": 0.140625,
+  "total_joules": 4.238336840423948,
+  "total_kwh": 1.1773157890066523E-06,
+  "total_co2e_g": 0.00047092631560266085,
+  "avg_co2e_g_per_test": 0.00015697543853422028,
+  "avg_joules_per_test": 1.4127789468079825,
+  "grid_intensity_g_per_kwh": 400,
+  "avg_cpu_watts": 30,
+  "mem_watts_per_gb": 0.372,
+  "generated_utc": "2025-09-09T08:00:01.5908787+00:00",
+  "meta": {
+    "mode": "baseline"
+  }
+}
