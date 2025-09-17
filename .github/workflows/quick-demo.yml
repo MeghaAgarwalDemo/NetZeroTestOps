@@ -1,8 +1,8 @@
 name: NetZero TestOps - Quick Demo
 
 on:
-  # push:
-  #   branches: [main, develop]
+  push:
+    branches: [master, develop]
   # pull_request:
   #   branches: [main]
   workflow_dispatch:

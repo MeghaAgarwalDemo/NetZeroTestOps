@@ -1,12 +1,12 @@
 name: NetZero TestOps CI/CD Pipeline
 
 on:
-  # push:
-  #   branches: [main, develop]
+  push:
+    branches: [master, develop]
   # pull_request:
   #   branches: [main]
-  schedule:
-    - cron: '0 2 * * *'
+  # schedule:
+  #   - cron: '0 2 * * *'
   workflow_dispatch:
     inputs:
       run_carbon_comparison:
