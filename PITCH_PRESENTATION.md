@@ -377,7 +377,7 @@ Every test execution represents an opportunity to eliminate emissions. Every Net
 - **[`Demo/dashboard_simulator.py`](Demo/dashboard_simulator.py)** - Carbon monitoring dashboard simulation
 - **[`Demo/impact_calculator.py`](Demo/impact_calculator.py)** - ROI and carbon savings calculation tools
 
-### 🤝 **Partnership Opportunity**: Transform your organization's testing operations for carbon neutrality while achieving superior performance and business value
+### 🤝 **Opportunity**: Transform organization's testing operations for carbon neutrality while achieving superior performance and business value
 
 ## **Thank you for evaluating NetZero TestOps! Together, we will achieve carbon neutrality in software testing and lead the industry toward a sustainable future. 🌱**
 

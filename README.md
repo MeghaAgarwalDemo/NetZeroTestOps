@@ -54,9 +54,13 @@ Software testing currently accounts for **23-45% of total development energy con
 A comprehensive framework that transforms testing operations to achieve carbon neutrality while improving performance:
 
 ✅ **Smart Resource Orchestration**: HTTP client reuse, intelligent caching
+
 ✅ **AI-Driven Test Selection**: Run only impacted tests with ML optimization
+
 ✅ **Green Infrastructure**: Right-sized, auto-scaling, renewable-powered
+
 ✅ **Real-time Carbon Tracking**: Monitor and optimize environmental impact
+
 ✅ **Sustainable CI/CD**: Carbon-aware deployment pipelines
 
 ---
