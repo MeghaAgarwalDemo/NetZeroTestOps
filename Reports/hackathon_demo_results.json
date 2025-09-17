@@ -1,5 +1,5 @@
 {
-  "hackathon_demo_timestamp": "2025-09-17T13:48:29.100218",
+  "hackathon_demo_timestamp": "2025-09-17T18:10:03.328751",
   "baseline_framework": {
     "name": "NonGreenTestFramework",
     "total_energy_joules": 214.013436,
@@ -10,21 +10,21 @@
         "duration_seconds": 2.6500000000000004,
         "energy_joules": 80.58438000000001,
         "carbon_g_co2e": 0.008953820000000001,
-        "timestamp": "2025-09-17T13:48:27.747310"
+        "timestamp": "2025-09-17T18:10:02.087267"
       },
       {
         "test": "Test_Inventory",
         "duration_seconds": 1.24,
         "energy_joules": 37.522896,
         "carbon_g_co2e": 0.004169210666666667,
-        "timestamp": "2025-09-17T13:48:28.078532"
+        "timestamp": "2025-09-17T18:10:02.355461"
       },
       {
         "test": "Test_Checkout",
         "duration_seconds": 3.1500000000000004,
         "energy_joules": 95.90616000000001,
         "carbon_g_co2e": 0.01065624,
-        "timestamp": "2025-09-17T13:48:28.685155"
+        "timestamp": "2025-09-17T18:10:02.909192"
       }
     ]
   },
@@ -38,21 +38,21 @@
         "duration_seconds": 0.75,
         "energy_joules": 22.6395,
         "carbon_g_co2e": 0.0025155,
-        "timestamp": "2025-09-17T13:48:28.914123"
+        "timestamp": "2025-09-17T18:10:03.138986"
       },
       {
         "test": "Test_Inventory",
         "duration_seconds": 0.85,
         "energy_joules": 25.59486,
         "carbon_g_co2e": 0.0028438733333333334,
-        "timestamp": "2025-09-17T13:48:29.001175"
+        "timestamp": "2025-09-17T18:10:03.225165"
       },
       {
         "test": "Test_Checkout",
         "duration_seconds": 0.95,
         "energy_joules": 28.71204,
         "carbon_g_co2e": 0.0031902266666666667,
-        "timestamp": "2025-09-17T13:48:29.096921"
+        "timestamp": "2025-09-17T18:10:03.323230"
       }
     ]
   },

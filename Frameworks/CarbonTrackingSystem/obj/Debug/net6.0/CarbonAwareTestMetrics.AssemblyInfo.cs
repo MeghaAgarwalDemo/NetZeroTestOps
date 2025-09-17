@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute(("Library to collect test execution resource metrics and estimate energy, carbon fo" +
     "otprint, and savings vs baseline."))]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee44ffdb9404ae9d76370a8c4749fdb4b9ce4c1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarbonAwareTestMetrics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarbonAwareTestMetrics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

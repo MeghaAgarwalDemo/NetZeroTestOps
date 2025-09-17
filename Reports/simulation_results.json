@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-09-17T18:24:50.142533",
+  "simulation_summary": {
+    "total_tests_per_framework": 41,
+    "sustainable_framework": {
+      "energy": 1361.4147352331427,
+      "carbon": 0.15126830391479365,
+      "tests_run": 41
+    },
+    "wasteful_framework": {
+      "energy": 27479.85526168772,
+      "carbon": 3.0533172512986355,
+      "tests_run": 41
+    },
+    "savings": {
+      "energy_reduction_percent": 95.04577181259315,
+      "carbon_reduction_percent": 95.04577181259313,
+      "energy_saved_joules": 26118.44052645458,
+      "carbon_saved_g_co2e": 2.902048947383842
+    }
+  }
+}

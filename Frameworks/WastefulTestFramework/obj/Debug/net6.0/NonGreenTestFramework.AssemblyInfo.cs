@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NonGreenTestFramework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee44ffdb9404ae9d76370a8c4749fdb4b9ce4c1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("NonGreenTestFramework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NonGreenTestFramework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
