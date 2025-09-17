@@ -41,7 +41,7 @@ jobs:
         echo "🚀 Performance: 63.78% faster"
 
     - name: Upload Demo Results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: demo-results
         path: ./reports/

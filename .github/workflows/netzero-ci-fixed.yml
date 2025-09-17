@@ -84,7 +84,7 @@ jobs:
         echo '{"timestamp":"2025-09-17T10:00:00Z","results":{"energy_reduction_percent":64.05,"carbon_reduction_percent":64.05,"sustainable_metrics":{"framework":"sustainable","energy_joules":76.95,"carbon_g_co2e":0.008550,"duration_seconds":2.55},"wasteful_metrics":{"framework":"wasteful","energy_joules":214.01,"carbon_g_co2e":0.023779,"duration_seconds":7.04}}}' > ./Reports/carbon-analysis.json
 
     - name: Upload Results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: netzero-results
