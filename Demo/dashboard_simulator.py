@@ -138,7 +138,7 @@ class CarbonDashboardSimulator:
         self.save_simulation_results()
         
         print("\n✅ Dashboard simulation completed!")
-        print("📊 Results saved to simulation_results.json")
+        print("📊 Results saved to Reports/simulation_results.json in the project directory")
     
     def save_simulation_results(self):
         """Save simulation results to file"""
@@ -157,9 +157,20 @@ class CarbonDashboardSimulator:
             }
         }
         
-        os.makedirs('../Reports', exist_ok=True)
-        with open('../Reports/simulation_results.json', 'w') as f:
+        # Get the script's directory and create proper path to Reports folder
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        project_root = os.path.dirname(script_dir)  # Go up one level from Demo to NetZero TestOps
+        reports_dir = os.path.join(project_root, 'Reports')
+        
+        # Create Reports directory if it doesn't exist
+        os.makedirs(reports_dir, exist_ok=True)
+        
+        # Save the results file
+        results_file = os.path.join(reports_dir, 'simulation_results.json')
+        with open(results_file, 'w') as f:
             json.dump(results, f, indent=2)
+            
+        print(f"💾 Results saved to: {results_file}")
 
 def main():
     """Main function to run the dashboard simulation"""

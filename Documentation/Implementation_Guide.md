@@ -59,7 +59,7 @@ start ./Reports/carbon_impact_report.html
 type ./Reports/carbon_metrics_last_run_summary.json
 ```
 
-**Expected Results**: 66.37% carbon reduction, detailed performance metrics, and cost savings analysis.
+**Expected Results**: 64.05% carbon reduction reduction, detailed performance metrics, and cost savings analysis.
 
 ---
 
@@ -470,8 +470,8 @@ dotnet run --project ./Frameworks/CarbonTrackingSystem -- --validate
 
 ### Expected Outcomes
 After successful implementation, you should see:
-- ✅ **66.37% carbon footprint reduction**
-- ✅ **47% faster test execution**
+- ✅ **64.05% carbon reduction footprint reduction**
+- ✅ **63.78% faster test execution**
 - ✅ **31% infrastructure cost savings**
 - ✅ **Automated carbon reporting**
 - ✅ **Real-time optimization recommendations**
