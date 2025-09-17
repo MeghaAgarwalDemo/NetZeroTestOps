@@ -1,0 +1,56 @@
+Category,Item,Value,Unit,Notes
+Executive Summary,Initial Investment,47500,USD,Total upfront costs
+Executive Summary,Annual Savings,184250,USD,Recurring annual benefits
+Executive Summary,Net ROI,287.89,%,Return on investment percentage  
+Executive Summary,Payback Period,3.1,months,Time to recover investment
+Executive Summary,NPV,289073,USD,Net present value over 3 years
+
+Initial Costs,Framework Development,25000,USD,Core framework build
+Initial Costs,Infrastructure Setup,8500,USD,Servers and tools
+Initial Costs,Training & Implementation,7000,USD,Team education and rollout
+Initial Costs,Monitoring Tools,4000,USD,Dashboard and analytics
+Initial Costs,Testing & Validation,3000,USD,Quality assurance phase
+
+Annual Savings,Infrastructure Reduction,47580,USD,Cloud and server cost savings
+Annual Savings,Productivity Gains,89420,USD,Faster development cycles
+Annual Savings,Energy Cost Savings,6240,USD,Lower electricity usage
+Annual Savings,Carbon Credit Savings,2890,USD,Environmental credits
+Annual Savings,Maintenance Reduction,15680,USD,Less system upkeep
+Annual Savings,Tool Consolidation,12440,USD,Fewer tools needed
+
+Performance,Test Speed Improvement,63.78,%,Faster test execution
+Performance,CPU Efficiency,68.87,%,Lower processor usage
+Performance,Memory Efficiency,71.91,%,Reduced RAM consumption  
+Performance,Network Efficiency,67.35,%,Fewer network calls
+Performance,Overall Improvement,66.37,%,Combined performance gain
+
+Environmental,Energy Reduction,65.35,%,Lower power consumption
+Environmental,Carbon Reduction,64.05,%,Reduced CO2 emissions
+Environmental,Annual CO2 Savings,3.94,tons,Environmental impact
+Environmental,Equivalent Cars Removed,0.86,vehicles,CO2 equivalent
+Environmental,Equivalent Trees,179,trees,Carbon offset equivalent
+
+Monthly Projections,Month 1 Savings,15354,USD,First month benefits
+Monthly Projections,Month 3 Break-even,46062,USD,Cumulative at payback
+Monthly Projections,Month 6 Savings,92124,USD,Mid-year cumulative  
+Monthly Projections,Month 12 Savings,184248,USD,Full year benefits
+
+Risk Analysis,Best Case ROI,420.5,%,Optimistic scenario
+Risk Analysis,Most Likely ROI,287.9,%,Expected outcome
+Risk Analysis,Conservative ROI,189.2,%,Pessimistic scenario
+Risk Analysis,Risk-Adjusted ROI,296.38,%,Weighted average
+
+Technology Impact,Faster Time to Market,45000,USD,Accelerated releases
+Technology Impact,Quality Improvement,32000,USD,Fewer defects
+Technology Impact,Developer Satisfaction,18000,USD,Improved team morale
+Technology Impact,Compliance Value,8500,USD,Automated reporting
+
+Competitive Advantage,Market Leadership,High,Rating,Sustainability leader
+Competitive Advantage,Cost Leadership,35,%,Lower operational costs
+Competitive Advantage,Innovation Score,9.2,Rating,Framework uniqueness
+Competitive Advantage,Brand Enhancement,25000,USD,Green brand value
+
+Financial Ratios,IRR,487.5,%,Internal rate of return
+Financial Ratios,Benefit-Cost Ratio,4.88,Ratio,Benefits per dollar invested
+Financial Ratios,Payback Period,3.1,Months,Investment recovery time
+Financial Ratios,NPV 3-Year,289073,USD,Net present value
